@@ -10,7 +10,13 @@
 		Mateusz Mateja
 	</author>
 	<platform name="android" >
-		<splash src="www/img/splash.jpg" density="splash"/>
+		<splash src="www/img/splash-land-hdpi.jpg" density="land-hdpi"/>
+		<splash src="www/img/splash-land-hdpi.jpg" density="land-ldpi"/>
+		<splash src="www/img/splash-land-hdpi.jpg" density="land-mdpi"/>
+
+		<splash src="www/img/splash-land-hdpi.jpg" density="port-hdpi"/>
+		<splash src="www/img/splash-land-hdpi.jpg" density="port-ldpi"/>
+		<splash src="www/img/splash-land-hdpi.jpg" density="port-mdpi"/>
 	</platform>
 	
 	<plugin name="cordova-plugin-device" spec="~1.1.4" />
