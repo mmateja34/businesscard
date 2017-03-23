@@ -10,14 +10,18 @@
 		Mateusz Mateja
 	</author>
 	<platform name="android" >
-		<splash src="www/img/splash-land-hdpi.jpg" density="land-hdpi"/>
-		<splash src="www/img/splash-land-hdpi.jpg" density="land-ldpi"/>
-		<splash src="www/img/splash-land-hdpi.jpg" density="land-mdpi"/>
+		<splash src="res/screen/android/splash.png" density="land-hdpi"/>
+		<splash src="res/screen/android/splash.png" density="land-ldpi"/>
+		<splash src="res/screen/android/splash.png" density="land-mdpi"/>
+		<splash src="res/screen/android/splash.png" density="land-xhdpi"/>
 
-		<splash src="www/img/splash-land-hdpi.jpg" density="port-hdpi"/>
-		<splash src="www/img/splash-land-hdpi.jpg" density="port-ldpi"/>
-		<splash src="www/img/splash-land-hdpi.jpg" density="port-mdpi"/>
+		<splash src="res/screen/android/splash.png" density="port-hdpi"/>
+		<splash src="res/screen/android/splash.png" density="port-ldpi"/>
+		<splash src="res/screen/android/splash.png" density="port-mdpi"/>
+		<splash src="res/screen/android/splash.png" density="port-xhdpi"/>
 	</platform>
+
+	<preference name="SplashScreenDelay" value="10000" />
 	
 	<plugin name="cordova-plugin-device" spec="~1.1.4" />
 	<plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
